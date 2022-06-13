@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Acceuil{% endblock %}
+
+{% block body %}
+<style>
+#banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color:black;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: white;
+}
+</style>
+
+<body>
+   
+    <div id="banner">
+        <h1>Bienvenu</h1>
+        <h3>Gestion du parc Informatique</h3>
+    </div>
+</body>
+{% endblock %}
